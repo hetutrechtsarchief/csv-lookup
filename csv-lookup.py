@@ -9,7 +9,7 @@ delimiter=";"
 encoding="utf-8"
 
 if len(argv)!=7:
-  sys.exit("Usage: "+os.path.basename(argv[0])+" {INPUT_CSV} {INPUT_KEY_COL} {LOOKUP_CSV} {LOOKUP_KEY_COL} {LOOKUP_VALUE_COL} {OUTPUT_CSV}")
+  sys.exit("Add a column to a csv with values matches values from another csv\n  Usage: "+os.path.basename(argv[0])+" {INPUT_CSV} {INPUT_KEY_COL} {LOOKUP_CSV} {LOOKUP_KEY_COL} {LOOKUP_VALUE_COL} {OUTPUT_CSV}")
 
 _,INPUT_CSV,INPUT_KEY_COL,LOOKUP_CSV,LOOKUP_KEY_COL,LOOKUP_VALUE_COL,OUTPUT_CSV = argv
 

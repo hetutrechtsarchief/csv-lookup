@@ -13,7 +13,7 @@ csv-lookup.py \
 
 # voorbeeld:
 csv-lookup.py \
-	adressen.csv image_name \
-	Scan-GUIDs-Bestandsnaam.csv BESCHRIJVING GUID \
+	adressen.csv "image_name" \
+	Scan-GUIDs-Bestandsnaam.csv "BESCHRIJVING" "GUID" \
 	adressen-met-scan-guid.csv
 ````
